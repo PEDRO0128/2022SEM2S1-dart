@@ -24,19 +24,3 @@ String obtenerNombreApellidoParameter(
   var miFuncionAnonima = (String valor){
     return "El valor es $valor";
   };
-
-  abstract class Vehiculo {
-    String? placa;
-
-    bool vehuculoEncendido();
-  }
-
-  class Taxi extends Vehiculo {
-  @override
-  bool vehuculoEncendido() {
-    // TODO: implement vehuculoEncendido
-    throw UnimplementedError();
-  }
-    
-    
-  }
